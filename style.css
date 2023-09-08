@@ -1,0 +1,46 @@
+*{ margin: 0;padding: 0;box-sizing: border-box;}
+body{
+    background-color: #5f7C8A;
+}
+
+form {
+    background-color: aliceblue;
+    max-width: 500px;
+    width: 70%;
+    padding: 20px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+
+form h3 {
+    text-align: center;
+    color: #5f7C8A;
+}
+
+form input[type=text],
+form input[type=password] {
+    width: 98%;
+    height: 45px;
+    border: 1px solid #ccc;
+    padding-left: 10px;
+    margin: 10px 0;   
+        &:focus {
+            outline: 0;
+        }
+}
+
+form input[type=submit]{
+    width: 98%;
+    height: 40px;
+    cursor: pointer;
+    background-color: #5F7C8A;
+    border: 0;
+    border-radius: 20px;
+    transition: 1s;
+        &:hover {
+            background-color: #4A5F6A;
+        }
+
+}
